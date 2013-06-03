@@ -1,0 +1,191 @@
+@media only screen and (min-width: 1500px) {
+  #slider {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
+  #slider {
+    width: 1500px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+  
+  #front_page {
+    padding-top: 550px;
+  }
+
+  .logo_button {
+    width: 370px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #slider {
+    width: 1024px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+  
+  #front_page {
+    padding-top: 550px;
+  }
+
+  .logo_button {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #slider {
+    width: 950px;
+    position: absolute;
+    top: 50px;
+    left: -150px;
+  }
+  
+  #front_page {
+    padding-top: 330px;
+  }
+
+  .logo_button {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #slider {
+    width: 700px;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+  }
+  
+  #front_page {
+    padding-top: 330px;
+  }
+
+  .logo_button {
+    width: 150px;
+  }
+}
+  
+
+@media only screen and (min-width: 767px) {
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    z-index: 1500000;
+    font-weight: bold;
+    .nav-link {
+      color: #333;
+      border-right: 1px solid #ccc;
+      display: inline;
+      padding: 0 10px 0 10px;
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+    }
+    #logo {
+      padding: 5px 0 0 5px;
+      img {
+        height: 40px;
+      }
+    }
+    #aid { color: #f52500; }
+    .links {
+      position: absolute;
+      right: 0px;
+      top: 25px;
+      font-weight: 900;
+    }
+    #links {
+      list-style: none;
+      ul {
+        list-style: none;
+      }
+    }
+    #menu_button {
+      display: none;
+    }
+    #links {
+      position: absolute;
+      top: 15px;
+      right: 0;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 561px) and (max-width: 766px) {
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    z-index: 1500000;
+    .nav-link {
+      color: #333;
+      border-right: 1px solid #ccc;
+      display: inline;
+      padding: 0 10px 0 10px;
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+    }
+    #logo {
+      padding-top: 15px;
+      img {
+        height: 40px;
+      }
+    }
+    .logo_container {
+      width: 896px;
+      margin: -10px auto 0 auto;
+      position: relative;
+      #background: rgb(232,232,232);
+      height: 60px;
+      padding: 0;
+    }
+    #aid { color: #f52500; }
+    .links {
+      position: absolute;
+      right: 0px;
+      top: 25px;
+      font-weight: 900;
+    }
+    #links {
+      list-style: none;
+      ul {
+        list-style: none;
+      }
+    }
+    #menu_button {
+      display: none;
+    }
+    #links {
+      position: absolute;
+      top: 25px;
+      right: 0;
+    }
+  }
+
+  .container {
+    width: 90% !important;
+    padding: 70px 0 0 0;
+  }
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+}

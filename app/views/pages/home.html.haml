@@ -1,0 +1,34 @@
+.content
+  .links
+    = link_to "GitHub", "https://github.com/tomcartwrightuk"
+    = mail_to "tecartwright@gmail.com", "Email"
+    = link_to "About", "#"
+  #mugshot_wrapper
+    = image_tag "/images/mugshot.jpg", :class => "mugshot"
+  #tag_line
+    %h1.tag-name Tom Cartwright
+    %p Software engineer specialising in full-stack web application development, data analytics and API building. In London no less.
+  %header
+    %h2 Projects and experience
+  #projects
+    .project-pod.first-pod
+      %h3 Tribesports
+      = image_tag "/images/tribesports.jpg"
+      %p
+        %li Build authentication system
+        %li Build facebook application
+        %li Mobile application build in JS with Titanium Appcellerator
+    .project-pod
+      %h3 GiveAidDirect
+      = image_tag "/images/giveaiddirect.jpg"
+      %ul
+        %li Voluntary Tech lead for the project
+        %li Built app from scratch using Ruby of Rails
+        %li Building initial design and liasing with designers
+    .project-pod
+      %h3 Open-source
+      = image_tag "/images/opensource.jpg"
+      %ul
+        %li Voluntary Tech lead for the project
+        %li Built app from scratch using Ruby of Rails
+        %li Building initial design and liasing with designers

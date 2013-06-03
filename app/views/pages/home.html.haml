@@ -7,28 +7,38 @@
     = image_tag "/images/mugshot.jpg", :class => "mugshot"
   #tag_line
     %h1.tag-name Tom Cartwright
-    %p Software engineer specialising in full-stack web application development, data analytics and API building. In London no less.
+    %p London-based software engineer specialising in full-stack web application development, data analytics and API building. Available for hire.
   %header
     %h2 Projects and experience
   #projects
     .project-pod.first-pod
       %h3 Tribesports
       = image_tag "/images/tribesports.jpg"
-      %p
-        %li Build authentication system
-        %li Build facebook application
-        %li Mobile application build in JS with Titanium Appcellerator
+      %ul
+        %li July 2012 - June 2013
+        %li Ruby on Rails, SASS and JS to create software
+        %li Integrated apps with Facebook and Twitter APIs
+        %li Created mobile app in Titanium Appcelerator
+        %li Built permissions system within Tribsports social app
+        
     .project-pod
       %h3 GiveAidDirect
       = image_tag "/images/giveaiddirect.jpg"
       %ul
-        %li Voluntary Tech lead for the project
+        %li Voluntary Tech lead for person-person donation system
         %li Built app from scratch using Ruby of Rails
-        %li Building initial design and liasing with designers
+        %li Leading design decisions & product direction
+        %li Created initial design and liasing with designers for further designs
+        %li Building & maintaining server & deployment system
     .project-pod
       %h3 Open-source
       = image_tag "/images/opensource.jpg"
       %ul
-        %li Voluntary Tech lead for the project
-        %li Built app from scratch using Ruby of Rails
-        %li Building initial design and liasing with designers
+        %li
+          Open-source temporary bookmarking service in using RoR and JS
+        %li
+          Integrates with Instapaper API
+        %li
+          = link_to "Pushapage", "http://pushapage.com"
+          = " · "
+          = link_to "Source", "https://github.com/tomcartwrightuk/pushapage"

@@ -1,10 +1,10 @@
 .content
-  .links
+  %nav.links
     = link_to "GitHub", "https://github.com/tomcartwrightuk"
     = mail_to "tecartwright@gmail.com", "Email"
     = link_to "About", "#"
   #mugshot_wrapper
-    = image_tag "/images/mugshot.jpg", :class => "mugshot"
+    = image_tag "/images/mugshot_ver2.jpg", :class => "mugshot"
   #tag_line
     %h1.tag-name Tom Cartwright
     %p London-based software engineer specialising in full-stack web application development, data analytics and API building. Available for hire.
@@ -26,16 +26,16 @@
       = image_tag "/images/giveaiddirect.jpg"
       %ul
         %li Voluntary Tech lead for person-person donation system
-        %li Built app from scratch using Ruby of Rails
+        %li Built app from scratch using Ruby of Rails; integrates with PayPal
         %li Leading design decisions & product direction
         %li Created initial design and liasing with designers for further designs
         %li Building & maintaining server & deployment system
     .project-pod
-      %h3 Open-source
+      %h3 Pushapage
       = image_tag "/images/opensource.jpg"
       %ul
         %li
-          Open-source temporary bookmarking service in using RoR and JS
+          Open-source temporary bookmarking service using RoR and JS
         %li
           Integrates with Instapaper API
         %li

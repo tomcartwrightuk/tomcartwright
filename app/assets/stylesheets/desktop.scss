@@ -1,89 +1,31 @@
-@media only screen and (min-width: 1500px) {
-  #slider {
-    width: 100%;
-  }
-}
+@media only screen and (max-width: 992px) {
 
-@media only screen and (min-width: 1024px) and (max-width: 1499px) {
-  #slider {
-    width: 1500px;
-    position: absolute;
-    top: 50px;
-    right: 0;
-  }
-  
-  #front_page {
-    padding-top: 550px;
-  }
-
-  .logo_button {
-    width: 370px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  #slider {
-    width: 1024px;
-    position: absolute;
-    top: 50px;
-    right: 0;
-  }
-  
-  #front_page {
-    padding-top: 550px;
-  }
-
-  .logo_button {
-    width: 250px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  #slider {
-    width: 950px;
-    position: absolute;
-    top: 50px;
-    left: -150px;
-  }
-  
-  #front_page {
-    padding-top: 330px;
-  }
-
-  .logo_button {
-    width: 250px;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  #slider {
-    width: 700px;
-    position: absolute;
-    top: 50px;
-    left: -50px;
-  }
-  
-  #front_page {
-    padding-top: 330px;
-  }
-
-  .logo_button {
-    width: 150px;
-  }
-}
-  
-
-@media only screen and (min-width: 767px) {
-}
-
-
-@media only screen and (min-width: 561px) and (max-width: 766px) {
-  .container {
-    width: 90% !important;
-    padding: 70px 0 0 0;
-  }
-  .content {
+  body {
     width: 100%;
     padding: 0;
+    overflow: hidden;
+  }
+
+  .content {
+    width: 95% !important;
+    margin: 0 auto 0 auto;
+    padding: 0 2.5%;
+  }
+
+}
+
+@media only screen and (min-width: 521px) and (max-width: 992px) {
+  .project-pod {
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 2% !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .project-pod {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto !important;
   }
 }

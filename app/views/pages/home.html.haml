@@ -2,7 +2,7 @@
   %nav.links
     = link_to "GitHub", "https://github.com/tomcartwrightuk"
     = mail_to "tecartwright@gmail.com", "Email"
-    = link_to "About", "#"
+    -#= link_to "About", "#"
   #mugshot_wrapper
     = image_tag "/images/mugshot_ver2.jpg", :class => "mugshot"
   #tag_line
@@ -12,18 +12,19 @@
     %h2 Projects and experience
   #projects
     .project-pod.first-pod
-      %h3 Tribesports
-      = image_tag "/images/tribesports.jpg"
+      = link_to "http://tribesports.com" do
+        %h3 Tribesports
+        = image_tag "/images/tribesports.jpg"
       %ul
-        %li July 2012 - June 2013
         %li Ruby on Rails, SASS and JS to create software
         %li Integrated apps with Facebook and Twitter APIs
         %li Created mobile app in Titanium Appcelerator
         %li Built permissions system within Tribsports social app
         
     .project-pod
-      %h3 GiveAidDirect
-      = image_tag "/images/giveaiddirect.jpg"
+      = link_to "http://giveaiddirect.com" do
+        %h3 GiveAidDirect
+        = image_tag "/images/giveaiddirect.jpg"
       %ul
         %li Voluntary Tech lead for person-person donation system
         %li Built app from scratch using Ruby of Rails; integrates with PayPal
@@ -31,8 +32,9 @@
         %li Created initial design and liasing with designers for further designs
         %li Building & maintaining server & deployment system
     .project-pod
-      %h3 Pushapage
-      = image_tag "/images/opensource.jpg"
+      = link_to "http://pushapage.com" do
+        %h3 Pushapage
+        = image_tag "/images/opensource.jpg"
       %ul
         %li
           Open-source temporary bookmarking service using RoR and JS

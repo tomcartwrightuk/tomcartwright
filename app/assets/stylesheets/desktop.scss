@@ -12,12 +12,6 @@
     padding: 0 2.5%;
   }
 
-  .text-content {
-    h2 { margin-bottom: 30px;}
-    width: 90%;
-    margin: 20px auto;
-  }
-
 }
 
 @media only screen and (min-width: 521px) and (max-width: 992px) {
@@ -29,6 +23,15 @@
   .project-pod:first-child { margin-left: auto }
 }
 
+
+@media only screen and (min-width: 521px) and (max-width: 700px) {
+  .text-content {
+    h2 { margin-bottom: 30px;}
+    width: 480px;
+    margin: 20px auto;
+  }
+}
+
 @media only screen and (max-width: 520px) {
   .project-pod {
     width: 90%;
@@ -37,6 +40,12 @@
   }
   #tag_line {
     width: 90%;
-    margin: 20px auto 40px auto;
+    margin: 20px auto 20px auto;
   }
+  .text-content {
+    h2 { margin-bottom: 30px;}
+    width: 90%;
+    margin: 20px auto;
+  }
+
 }

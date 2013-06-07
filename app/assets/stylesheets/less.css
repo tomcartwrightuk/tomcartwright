@@ -8,7 +8,7 @@
   ------  */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
 img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -78,7 +78,7 @@ body {
 ::-moz-selection  {background: rgb(255,255,158);}
 img::selection    {background: transparent;}
 img::-moz-selection {background: transparent;}
-body {-webkit-tap-highlight-color: rgb(255,255,158);}
+body {-webkit-tap-highlight-color: (108, 167, 255);}
 
 
 

@@ -1,4 +1,11 @@
-%footer
-  %p
-    &copy;
-    Copyright #{Time.now.year} Tom Cartwright. All rights reserved.
+%nav.links
+  = link_to "GitHub", "https://github.com/tomcartwrightuk"
+  = mail_to "tecartwright@gmail.com", "Email"
+  = link_to "About", about_path
+= link_to root_path do
+  #mugshot_wrapper
+    = image_tag "/images/mugshot_ver3.jpg", :class => "mugshot"
+#tag_line
+  = link_to root_path do
+    %h1.tag-name Tom Cartwright
+  %p London-based software engineer specialising in full-stack web application development, data analytics and API building. Available for hire.

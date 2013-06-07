@@ -16,6 +16,13 @@ a {
 
 a:hover { color: #3F3F3F; }
 
+p { margin: 0 0 1em; } 
+.text-content {
+  h2 { margin-bottom: 30px;}
+  width: 650px;
+  margin: 20px auto;
+}
+
 .content {
   width: 992px;
   margin: auto;
@@ -73,7 +80,7 @@ footer {
 #tag_line {
   width: 345px;
   position: relative;
-  margin: 15px auto 50px auto;
+  margin: 15px auto 30px auto;
   height: 150px;
   text-align: justify;
   h1 {
@@ -119,6 +126,7 @@ footer {
     margin-bottom: 20px;
   }
 }
+.project-pod:first-child { margin-left: 0 }
   
 
 

@@ -12,6 +12,12 @@
     padding: 0 2.5%;
   }
 
+  .text-content {
+    h2 { margin-bottom: 30px;}
+    width: 90%;
+    margin: 20px auto;
+  }
+
 }
 
 @media only screen and (min-width: 521px) and (max-width: 992px) {
@@ -20,12 +26,17 @@
     margin-right: 2%;
     margin-left: 2% !important;
   }
+  .project-pod:first-child { margin-left: auto }
 }
 
 @media only screen and (max-width: 520px) {
   .project-pod {
     width: 90%;
-    margin-right: auto;
-    margin-left: auto !important;
+    margin: 20px auto !important;
+    display: block;
+  }
+  #tag_line {
+    width: 90%;
+    margin: 20px auto 40px auto;
   }
 }
